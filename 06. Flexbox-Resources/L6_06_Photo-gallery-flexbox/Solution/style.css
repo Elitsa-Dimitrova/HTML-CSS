@@ -1,0 +1,32 @@
+body {
+    margin: 8em;
+}
+
+
+body, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+
+li {
+    flex-basis: 20%;
+    border: 10px solid black;
+    justify-items: center;
+    margin: 3em;
+    align-items: stretch;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+img {
+    align-self: center;
+    justify-self: stretch;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    flex: 0 0 48%;
+}

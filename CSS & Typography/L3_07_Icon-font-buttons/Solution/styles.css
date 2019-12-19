@@ -1,0 +1,31 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+body {
+    padding: 1.5cm;
+}
+
+p {
+    margin: 3em;
+    
+}
+
+
+a {
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+p a {
+    border-width: 100%;
+    border-radius: 3px;
+    color: white;
+}
+
+.GreenButton {
+    background-color: rgb(26, 180, 26);
+}
+
+.OrangeButton {
+    background-color: orange;
+}

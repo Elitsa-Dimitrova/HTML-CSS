@@ -1,0 +1,48 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);   
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 25em;
+    margin: 3em;
+    border: 2px solid grey;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.card img {
+    width: 25em;
+    height: auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.description > button {
+    background-color: rgb(0, 153, 0);
+    align-self: flex-end;
+    padding:  0.5em 1em 0.5em 1em;
+    border: none;
+    color: white;
+    border: 1px solid rgb(0, 153, 0);
+    border-radius: 5%;
+}
+
+.description>* {
+    flex-basis: 100%;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    display: block;
+    flex-basis: 100%;
+}
